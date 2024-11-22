@@ -1,0 +1,59 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+*.pot
+*.pyi
+*.bak
+*.swp
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+VENV/
+
+# Django-specific
+*.log
+*.sqlite3
+media/
+staticfiles/
+static/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+.pylint.d/
+
+# pytest
+.cache/
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# Docker
+docker-compose.override.yml
+*.env
+*.env.*.local
+
+# Sphinx documentation
+docs/_build/
+
+# Django settings (local settings, secret keys, etc.)
+settings_local.py
